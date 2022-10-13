@@ -5,7 +5,7 @@ import Modal from "react-modal";
 import ProfileImageMinter from "./mintingModal/ProfileImageMinter";
 import { customStyles, imageModalStyles } from "../../lib/constants";
 import { useState } from "react";
-import EditUserNameModal from "./editUserNameModal";
+import EditUserNameModal from "./EditUserNameModal";
 import EditCoverModal from "./EditCoverModal";
 import handleFollow from "../../lib/handleFollow";
 import ShowImageModal from "../home/ShowImageModal";
