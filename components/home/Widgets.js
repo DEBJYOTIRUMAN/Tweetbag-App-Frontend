@@ -50,7 +50,8 @@ function Widgets({
           <AiOutlineClose
             className={style.searchIcon}
             onClick={() => {
-              setSearchList([]), setName("");
+              setSearchList([]);
+              setName("");
             }}
           />
         </div>
